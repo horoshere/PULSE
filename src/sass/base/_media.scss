@@ -9,6 +9,11 @@
       width: 227px;
     }
   }
+  .consultation {
+    min-height: 650px;
+    padding: 70px 15px 80px 15px;
+  }
+
 }
 @media (max-width: 767px) {
   .promo {
@@ -47,6 +52,21 @@
     &__descr {
       margin-top: 10px;
     }
+  }
+  .consultation {
+    min-height: 600px;
+    &__descr {
+      display: none;
+    }
+  }
+  .title {
+    &_left {
+      font-size: 30px;
+      line-height: 35px;
+    }
+  }
+  .feed_form {
+    margin-top: 45px;
   }
 }
 
@@ -87,5 +107,12 @@
   }
   .title {
     font-size: 23px;
+    &_left {
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+  .feed_form {
+    width: 290px;
   }
 }
