@@ -12,8 +12,28 @@
   .consultation {
     min-height: 650px;
     padding: 70px 15px 80px 15px;
+    .feed_form {
+      align-items: center;
+      width: 100%;
+      input {
+        width: 350px;
+      }
+    .button_submit {
+      width: 350px;
+    }
+    }
   }
-
+  .carousel {
+    padding: 50px 0;
+    .prev, .next {
+      display: none;
+    }
+    &__inner {
+      img {
+        width: 70%
+      }
+    }
+  }
 }
 @media (max-width: 767px) {
   .promo {
