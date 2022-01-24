@@ -269,4 +269,31 @@
       }
     }
   }
+  .modal {
+    padding: 50px 20px 25px 20px;
+    width: 270px;
+    min-height: 320px;
+    &__subtitle {
+      font-size: 14px;
+    }
+    &__descr {
+      font-size: 11px;
+    }
+    .feed_form_320 {
+      input {
+        width: 230px;
+        height: 45px;
+      }
+      .button_submit {
+        width: 230px;
+        height: 48px;
+        font-size: 14px;
+      }
+    }
+    &__close {
+      top: 10px;
+      right: 10px;
+      font-size: 35px;
+    }
+  }
 }
