@@ -22,10 +22,10 @@
     transform: skewX(-25deg);
     margin: 0 5px;
     cursor: pointer;
-    transition: 0.5s all;
+    transition: 0.3s all;
     &:hover {
-      box-shadow: 3px 3px 20px $main_color;
-      border: none;
+      box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+      // border: none;
     }
     div {
       transform: skewX(25deg);
