@@ -277,12 +277,15 @@
       font-size: 14px;
     }
     &__descr {
+      margin-top: 3px;
       font-size: 11px;
     }
     .feed_form_320 {
+      width: 230px;
       input {
         width: 230px;
         height: 45px;
+        margin-bottom: 8px;
       }
       .button_submit {
         width: 230px;
@@ -294,6 +297,10 @@
       top: 10px;
       right: 10px;
       font-size: 35px;
+    }
+    label.error {
+      font-size: 10px;
+      margin-bottom: 8px;
     }
   }
 }

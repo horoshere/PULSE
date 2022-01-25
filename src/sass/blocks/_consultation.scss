@@ -9,4 +9,15 @@
     line-height: 30px;
     color: #FFFFFF;
   }
+  .error {
+    border: 1px solid red;
+  }
+  label.error {
+    color: #fff;
+    font-size: 11px;
+    font-style: oblique;
+    border: none;
+    text-align: center;
+    margin-bottom: 15px;
+  }
 }
