@@ -93,4 +93,25 @@ $(function() {
   valideForms('#order form');
 
   $('input[name=phone]').mask("+7 (999) 999-9999");
+
+  $('form').submit(function(e) {
+    e.preventDefault();
+
+    if(!$(this).valid()) {
+      return;
+    }
+
+    $.ajax({
+      type: "POST",
+      url: "mailer/smart.php", //выбираем обработчика
+      data: $(this).serialize()  //данные которые хотим отправить на сервер
+    }).done(function() {
+      $(this).find("input").val(""); //устанавливаем value у input'ов в пустую строку
+      $('#consultation, #order').fadeOut();
+      $('.overlay, #thanks').fadeIn('slow');
+
+      $('form').trigger('reset');
+    });
+    return false;
+  });
 });
