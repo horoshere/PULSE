@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="css/tiny-slider.css">
+  <link rel="stylesheet" href="/css/animate.min.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -75,7 +76,7 @@
           </div>
         </div>
         <div class="advantage__item">
-          <div class="advantage__icon">
+          <div class="advantage__icon advantage__icon_animated">
             <img src="icons/advantage/heart.png" alt="heart">
             <div class="advantage__subtitle">
               Заботимся о здоровье
@@ -137,7 +138,7 @@
     </div>
   </section>
 
-  <section class="catalog" id="catalog">
+  <section id="catalog" class="catalog">
     <div class="container">
       <div class="title">Каталог пульсометров</div>
       <ul class="catalog__tabs">
@@ -407,12 +408,11 @@
     </div>
   </section>
 
-
   <section class="reviews">
     <div class="title">отзывы клиентов</div>
     <div class="container">
       <div class="reviews__wrapper">
-        <div class="reviews__item">
+        <div class="reviews__item animate__animated animate__fadeInUp wow">
           <img src="img/reviews/irina.png" alt="review" class="reviews__img">
           <div class="reviews__descr">
             <div class="reviews__descr_name">Ирина Иванченко</div>
@@ -423,7 +423,7 @@
             </div>
           </div>
         </div>
-        <div class="reviews__item">
+        <div class="reviews__item animate__animated animate__fadeInUp wow">
           <img src="img/reviews/ivan.png" alt="review" class="reviews__img">
           <div class="reviews__descr">
             <div class="reviews__descr_name">Иван Сёмочкин</div>
@@ -433,7 +433,7 @@
             </div>
           </div>
         </div>
-        <div class="reviews__item">
+        <div class="reviews__item animate__animated animate__fadeInUp wow">
           <img src="img/reviews/julia.png" alt="review" class="reviews__img">
           <div class="reviews__descr">
             <div class="reviews__descr_name">Юлия Дашкина</div>
@@ -509,6 +509,7 @@
   <script src="js/tiny-slider.js"></script>
   <script src="js/jquery.validate.min.js"></script>
   <script src="js/jquery.maskedinput.min.js"></script>
+  <script src="js/wow.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
