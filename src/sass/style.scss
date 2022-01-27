@@ -12,6 +12,7 @@
 @import "blocks/reviews";
 @import "blocks/footer";
 @import "blocks/modal";
+@import "blocks/pageup";
 * {
   font-family: 'Museo Sans Cyrl', sans-serif;
 }
@@ -27,6 +28,10 @@ a {
   max-width: 950px;
   margin: 0 auto;
   padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 @import "base/media";
