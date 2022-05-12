@@ -42,15 +42,19 @@
   &__content {
     margin-top: 60px;
     display: none;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill, 303px);
+    grid-auto-rows: minmax(442px, auto);
+    column-gap: 10px;
+    // justify-content: space-between;
+    // flex-wrap: wrap;
     &_active {
-      display: flex;
+      display: grid;
     }
   }
   &-item {
-    width: 303px;
-    min-height: 442px;
+    // width: 303px;
+    // min-height: 442px;
+    justify-self: center;
     border: 2px solid #E8E8E8;
     padding: 20px 20px 21px 20px;
     overflow: hidden;

@@ -35,17 +35,18 @@
     left: 50%;
     transform: translateX(-50%);
     button {
-      width: 10px;
-      height: 10px;
-      border-radius: 100%;
+      width: 5px;
+      height: 5px;
+      // border-radius: 100%;
       border: none;
       margin-right: 5px;
       &:nth-child(3) {
-        margin: 0
+        margin-right: 0;
       }
     }
+    &-active {
+      background-color: $main_color;
+    }
   }
-  .tns-nav-active {
-    background-color: $main_color;
-  }
+
 }
