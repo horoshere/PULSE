@@ -5,4 +5,4 @@ Landing page store
 * С использованием библиотеки jQuery, проепроцессора SASS и планировщика задач Gulp.
 * Адаптирован под мобильные устройства.
 
-https://pulse.horoshere.ru/
+https://pulse-store.horoshere.ru/
