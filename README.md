@@ -1,5 +1,6 @@
 # PULSE
-Landing page store
+Landing page store  
+
 [Посмотреть демо](https://pulse-store.horoshere.ru/)
 
 ### Верстка лендинга магазина с отправкой формы на почту.
